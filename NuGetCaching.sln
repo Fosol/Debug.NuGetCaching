@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B925BC5D-009E-4BB0-AFE1-B49D4815D8F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9354D60-EFBD-4368-9977-AB1A67015529}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NuGetCaching.Web1", "src\NuGetCaching.Web1\NuGetCaching.Web1.xproj", "{7FB16341-36E7-428C-9FB0-B897303CA346}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NuGetCaching.Web2", "src\NuGetCaching.Web2\NuGetCaching.Web2.xproj", "{BD24E12B-62C3-4C72-A67C-2DA5E16707E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB16341-36E7-428C-9FB0-B897303CA346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB16341-36E7-428C-9FB0-B897303CA346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB16341-36E7-428C-9FB0-B897303CA346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB16341-36E7-428C-9FB0-B897303CA346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD24E12B-62C3-4C72-A67C-2DA5E16707E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD24E12B-62C3-4C72-A67C-2DA5E16707E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD24E12B-62C3-4C72-A67C-2DA5E16707E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD24E12B-62C3-4C72-A67C-2DA5E16707E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FB16341-36E7-428C-9FB0-B897303CA346} = {B925BC5D-009E-4BB0-AFE1-B49D4815D8F3}
+		{BD24E12B-62C3-4C72-A67C-2DA5E16707E4} = {B925BC5D-009E-4BB0-AFE1-B49D4815D8F3}
+	EndGlobalSection
+EndGlobal
